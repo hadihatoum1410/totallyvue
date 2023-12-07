@@ -1,0 +1,5 @@
+include ':app'
+include ':capacitor-cordova-android-plugins'
+project(':capacitor-cordova-android-plugins').projectDir = new File('./capacitor-cordova-android-plugins/')
+
+apply from: file("${rootDir}/node_modules/@capacitor/cli/dist/android/capacitor.settings.json")

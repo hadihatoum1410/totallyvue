@@ -1,0 +1,2 @@
+rootProject.name = 'totallyvue'
+apply from: file("${rootDir}/node_modules/@capacitor/cli/dist/android/capacitor.settings.json")
